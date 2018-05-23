@@ -1,8 +1,3 @@
-body {
-    background-image: url("assets/images/symphony.png");
-    background-color: #cccccc;
-}
-
 h1 {
     color: #FFF7EF;
     background: #4aaaa5;
@@ -14,14 +9,12 @@ h1 {
     padding-bottom: 15px;
     margin-left: 150px;
     width: 190px;
-
 }
 
 header {
     border-style: solid;
     border-color: #cccccc;
     border-width: 0px 0px 3px 0px;
-    float: left;
 }
 
 /* unvisited link */
@@ -42,7 +35,7 @@ a:active { color: #E8C15A;
 }
 
 a {
-
+    font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 a.about {
@@ -52,8 +45,7 @@ a.about {
     padding: 5px 5px 0px 5px;
     margin-bottom: 25px;
     float: right;
-    position: relative;
-    left: 500px;
+    left: 420px;
 }
 
 a.port {
@@ -72,8 +64,13 @@ a.contact {
     padding: 5px 5px 0px 5px;
     float: right;
     position: relative;
-    right: 20px
-    
+    right: 20px;
+    display: inline-block;
+}
+
+img.profile {
+    display: inline-block;
+    width:"200" height="200";
 }
 
 footer {
@@ -85,6 +82,15 @@ footer {
 }
 
 div {
-    margin: 10px;
+    display: inline-block;
+    margin: 25px;
+    width: 980px;
+
+}
+
+section.abm {
+    display: inline-block;
+    margin-left: 150px;
+    margin-right: 150px;
     width: 980px;
 }
