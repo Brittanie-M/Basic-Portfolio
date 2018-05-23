@@ -1,0 +1,30 @@
+h1 {
+    text-align: left;
+    color: #FFF7EF;
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+header {
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 0px 0px 3px 0px;
+}
+
+/* unvisited link */
+a:link {color: #777777; 
+    text-decoration: none;
+}
+/* visited link */
+a:visited { color: #8268E8; 
+    text-decoration: none;
+}
+/* hover mouse over link */
+a:hover { color: #E8BCAD; 
+    text-decoration: none;
+}
+/* selected link */
+a:active { color: #E8C15A;   
+        text-decoration: none;
+}
